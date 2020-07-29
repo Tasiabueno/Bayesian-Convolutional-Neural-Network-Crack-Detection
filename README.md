@@ -5,7 +5,7 @@ A Bayesian Convolutional neural network to detect cracks in concrete structures.
 The datasets contains images of concrete surfaces with(postive) and without(negative) cracks. Each class contains 20000 image in a seperate folder, postive and negative, leading to a total of
 40000 images. The image are in RBG channel and have the following size, 227 x 227 pixel. The data is publically availible at Mendely, 
 
-www.https://data.mendeley.com/datasets/5y9wdsg2zt/2. 
+https://data.mendeley.com/datasets/5y9wdsg2zt/2
 
 The data is previously used for crack-detection;
 
