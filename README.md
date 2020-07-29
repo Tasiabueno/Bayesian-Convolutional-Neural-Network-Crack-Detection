@@ -1,5 +1,5 @@
 # Bayesian-Convolution-Neural-Network-road-cracks
-A Bayesian Convolutional neural network to detect cracks in concrete structures. The bayesian convolution neural networks takes the uncertainty of the weight parameters into account and can lead to more reliable decisions. We model probability distribution over the model weights to include the uncertainty. The concepts follows the Bayesian statistics rules and uses the theory of Variational Inference. According to Gal and Ghahramani (2015a), adding drop-out layers to the afters each convolutin layer approximate the Variational Inference and thus the posterior distribution of the model weights. 
+A Bayesian Convolutional neural network to detect cracks in concrete structures. The Bayesian Convolution Neural Networks takes the uncertainty of the weight parameters into account which potentially leads to more reliable decisions. We model probability distribution over the model weights to include the uncertainty. The concepts follows the Bayesian statistics rules and uses the theory of Variational Inference. According to Gal and Ghahramani (2015a), adding drop-out layers to the afters each convolutin layer approximate the Variational Inference and thus the posterior distribution of the model weights. 
 
 ## CNN Architecture
 
