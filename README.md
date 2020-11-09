@@ -16,7 +16,7 @@ Lei Zhang , Fan Yang , Yimin Daniel Zhang, and Y. J. Z., Zhang, L., Yang, F., Zh
 
 Gal, Y. and Ghahramani, Z. (2015a). Bayesian convolutional neural networks with bernoulli approximate variational inference. arXiv preprint arXiv:1506.02158.
 
-### Data preparation 
+## Data preparation 
 The data is transformed to a 100 x 100 x 1 dimension and is split up into train, validation and test data sets (75% - 15% -15%). Furtermore, each image is given its  corresponding label, positive (1) or negative (0) and we random shuffled the order of the images. In the folder Codes one can find the code to prepare the raw downloaded dataset in "Prepare_data.py"
 
 ## Models 
