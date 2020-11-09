@@ -1,9 +1,9 @@
 # Bayesian-Convolution-Neural-Network-Road-Crack-Detection
-A Bayesian Convolutional neural network to detect cracks in concrete structures. The Bayesian Convolution Neural Networks takes the uncertainty of the weight parameters into account which potentially leads to more reliable decisions. We model probability distribution over the model weights to include the uncertainty. The concept follows the Bayesian update rule and uses the theory of Variational Inference. According to Gal and Ghahramani (2015a), adding drop-out layers to the afters each convolutin layer approximate the Variational Inference and thus the posterior distribution of the model weights. 
+A Bayesian Convolutional neural network to detect cracks in concrete structures from images. The Bayesian Convolution Neural Networks takes the uncertainty of the weight parameters into account which potentially could lead to more reliable decisions. Theoretically, we model a probability distribution over the model weights to include a form of  uncertainty. According to Gal and Ghahramani (2015a), adding drop-out layers after every convolution layer, during training and testing, is approximately corresponds to Variational Inference and enables us to sample from the posterior distribution of the predicted output. 
 
 ## Road crack dataset
 The datasets contains images of concrete surfaces with(postive) and without(negative) cracks. Each class contains 20000 image in a seperate folder, postive and negative, leading to a total of
-40000 images. The image are in RBG channel and have the following size, 227 x 227 pixel. The data is publically availible at Mendely, 
+40000 images. The image are in RBG channel and have the following size, 227 x 227 x 3.  The data is publically availible at Mendely, 
 
 https://data.mendeley.com/datasets/5y9wdsg2zt/2
 
@@ -16,10 +16,13 @@ Lei Zhang , Fan Yang , Yimin Daniel Zhang, and Y. J. Z., Zhang, L., Yang, F., Zh
 
 Gal, Y. and Ghahramani, Z. (2015a). Bayesian convolutional neural networks with bernoulli approximate variational inference. arXiv preprint arXiv:1506.02158.
 
-## CNN Architecture
-Below you can find each step which was applied in order to obtain the results in the paper. 
-
 ### Data preparation 
+The data is transformed to a 100 x 100 x 1 dimension and is split up into train, validation and test data sets (75% - 15% -15%). Furtermore, each image is given its  corresponding label, positive (1) or negative (0) and we random shuffled the order of the images. In the folder Codes one can find the code to prepare the raw downloaded dataset in "Prepare_data.py"
 
+## Models 
+In the folder codes one can find the codes for each model. ..
+
+## Output
+Final the executed code in the format of a Juypter notebook are stored under .. 
 
 
