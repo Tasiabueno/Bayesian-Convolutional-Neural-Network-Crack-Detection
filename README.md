@@ -20,9 +20,15 @@ Gal, Y. and Ghahramani, Z. (2015a). Bayesian convolutional neural networks with 
 The data is transformed to a 100 x 100 x 1 dimension and is split up into train, validation and test data sets (75% - 15% -15%). Furtermore, each image is given its  corresponding label, positive (1) or negative (0) and we random shuffled the order of the images. In the folder Codes one can find the code to prepare the raw downloaded dataset in "Prepare_data.py"
 
 ## Models 
-In the folder codes one can find the codes for each model. ..
+In the folder codes one can find the codes for each model.
+- CNN: Convolution neural network
+- CNN_D: Convolution neural network with regularization dropout
+- BCNN: Bayesian convolution neural network with dropout layers after every convolution operation to cast the bernouille approximation variational inference with Monte Carlo dropout
 
 ## Output
-Final the executed code in the format of a Juypter notebook are stored under .. 
+Final the executed code in the format of a Juypter notebook are stored under the file Output.ipyn 
+
+## Summary obtained results
+... TODO..
 
 
