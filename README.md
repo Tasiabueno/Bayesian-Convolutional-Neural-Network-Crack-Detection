@@ -1,6 +1,8 @@
 # Bayesian-Convolution-Neural-Network-Road-Crack-Detection
 Maintenance is an essential task in the industrial sector—the rise of image-detection techniques shows the potential to improve maintenance processes. Machine learning algorithms are appealing with their excellence in prediction accuracy and scalability. However, their” black box” behavior and the inability to include uncertainty in the predicted values are the main drawbacks. The estimated class likelihood from the softmax activation lacks model confidence and can be misleading in decision-making. The Bayesian convolution network uses dropout to cast variational inference and obtains an approximated predictive posterior distribution. The predictive variances aggregate from samples of the approximated predictive posterior and serve as a measure of uncertainty. The Bayesian convolution neural network has advantages in image-based maintenance applications. Domain experts affirm the novel method’s potential—model uncertainty gains an increased interest in the image-based maintenance industry sector and is often a discussion point with their clients. The predictive posterior variance as an evaluation criterion eliminates the number of false-negative predictions and illuminates uncertain predictions.
 
+![alt text](https://github.com/Tasiabueno/Bayesian-Convolution-Neural-Network-Road-Crack-Detection/blob/master/Data/B-cnn.png)
+
 ## Road crack dataset
 The datasets contains images of concrete surfaces with(postive) and without(negative) cracks. Each class contains 20000 image in a seperate folder, postive and negative, leading to a total of
 40000 images. The image are in RBG channel and have the following size, 227 x 227 x 3.  The data is publically availible at Mendely, 
