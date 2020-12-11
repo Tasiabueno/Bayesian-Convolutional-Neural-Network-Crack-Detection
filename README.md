@@ -30,7 +30,13 @@ In the folder codes one can find the codes for each model.
 - BCNN: Bayesian convolution neural network with dropout layers after every convolution operation to cast the bernouille approximation variational inference with Monte Carlo dropout
 
 ## Output
-Final the executed code in the format of a Juypter notebook are stored under the file Output.ipyn 
+In order to reproduce the obtained results take the following steps:
+- Download the publicly availible data set
+- Prepare and clean the data with the code "Prepare_data.py"
+- Download the codes of the applied models; "CNN.py","CNN_D.py","BCNN.py"
+- Downalod the final executed output code, in the format of a Juypter notebook are stored under the file "Output.ipyn"
+
+! Make sure you store the downloaded codes and the final output notebook in the same folder
 
 ## Summary obtained results
 Comparing the three convolution neural networks, we criticize on three components; predictive accuracy, uncertainty assessment, and practical applicability. The Bayesian method slightly outperforms the CNN and CNN_ D in terms of prediciton accuracy. Furthemore, the novel method can measure uncertainty through its predictive posterior variance and eliminate the number of false negatives relative to the CNN method. We verify and substantiate the obtained results with the application of CQM, a quantitative consultancy company that previously applied a CNN method for a maintenance project. Summarizing the information obtained from the domained expert, we can conlude the folloinwg statements; The company is intressented in applying novel method to include a source of uncertainty. Uncertainty evaluation is an often discussed topic among their clients. The trade-off to appy the method for futur project depends on the application and the costs of false postives. 
