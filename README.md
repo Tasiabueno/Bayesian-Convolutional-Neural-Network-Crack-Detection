@@ -31,10 +31,10 @@ In the folder codes one can find the codes for each model.
 
 ## Output
 In order to reproduce the obtained results take the following steps:
-- Download the publicly availible data set
+- Download the data set
 - Prepare and clean the data with the code "Prepare_data.py"
 - Download the codes of the applied models; "CNN.py","CNN_D.py","BCNN.py"
-- Downalod the final executed output code, in the format of a Juypter notebook are stored under the file "Output.ipyn"
+- Download the final executed output code, in the format of a Juypter notebook are stored under the file "Output.ipyn"
 
 ! Make sure you store the downloaded codes and the final output notebook in the same folder
 
