@@ -48,5 +48,5 @@ The field of uncertainty in deep learning applications is significantly advancin
 In the presentation below you can find my thesis defense for my Masters in Econometrics & Operations Research at the Erasmus University. The presentation will give you a short overview of the motivation to apply the BCNN and some guidance that can help you to follow my codes and the architecture. If you have any question regarding the thesis or presentation, please feel free to reach out to me!
 
 
-![alt text](https://github.com/Tasiabueno/Bayesian-Convolution-Neural-Network-Road-Crack-Detection/blob/master/Data/Thesis_final.pptx)
+![alt text](https://github.com/Tasiabueno/Bayesian-Convolution-Neural-Network-Road-Crack-Detection/blob/master/Data/Thesis_final.pdf)
 
