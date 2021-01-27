@@ -49,4 +49,3 @@ In the presentation below you can find my thesis defense for my Masters in Econo
 
 
 
-![alt text](https://github.com/Tasiabueno/Bayesian-Convolution-Neural-Network-Road-Crack-Detection/blob/master/Data/Powerpoint.pptx)
