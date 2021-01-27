@@ -44,3 +44,9 @@ Comparing the three convolution neural networks, we criticize on three component
 The field of uncertainty in deep learning applications is significantly advancing and is a topic with considerable potential for further research. More specifically, it might be interesting to include visualizing results for maintenance applications in the future. A technique that indicates the origin of the uncertainty directly on the image distinguishes the aleatoric and epistemic uncertainty. Furthermore, an exciting field of research for maintenance applications is the combination of uncertainty evaluation and Humans in the loop. Humans in the loop is a combination of the machine learning model and human interaction with continuous feedback loops, also known as active learning [Settles, 2009]. The combinations of active learning and BCNN could potentially be the step towards automated image- based maintenance strategies.
 
 
+## Thesis Defense
+In the presentation below you can find my thesis defense for my Masters in Econometrics & Operations Research at the Erasmus University. The presentation will give you a short overview of the motivation to apply the BCNN and some guidance that can help you to follow my codes and the architecture. If you have any question regarding the thesis or presentation, please feel free to reach out to me!
+
+
+
+![alt text](https://github.com/Tasiabueno/Bayesian-Convolution-Neural-Network-Road-Crack-Detection/blob/master/Data/Powerpoint.pptx)
